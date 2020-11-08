@@ -1,0 +1,47 @@
+.social-link {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ddd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #666;
+  border-radius: 50%;
+  transition: all 0.3s;
+  font-size: 0.9rem;
+}
+
+.social-link:hover,
+.social-link:focus {
+  background: #ddd;
+  text-decoration: none;
+  color: #555;
+}
+
+header{
+    background-image: linear-gradient(45deg, rgba(2, 33, 64, 0.8) 55%, rgba(45, 95, 93, 0.85)), url("../images/bg-01.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* view height */
+    background-attachment: fixed;
+}
+
+h2{
+    font-size: 300%;
+    font-weight: 500;
+    word-spacing: 5px;
+    color: white;
+    line-height: 120%;
+    margin-bottom: 50px;
+}
+
+.about{
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 100%;
+    margin-left: 0%;
+    line-height: 140%
+}
